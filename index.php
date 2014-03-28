@@ -159,7 +159,7 @@
 			<div class="pt-page pt-page-7"><h1><span>A collection of</span><strong>Page</strong> Transitions7</h1></div>
 			<div class="pt-page pt-page-8"><h1><span>A collection of</span><strong>Page</strong> Transitions8</h1></div>
 		</div>
-
+    is this the final u chose sigh now wher do we satrt huh
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/jquery.dlmenu.js"></script>
 		<script src="js/pagetransitions.js"></script>
