@@ -151,7 +151,7 @@
 
 		<div id="pt-main" class="pt-perspective">
 			<div class="pt-page pt-page-1"><h1><span>A collection of</span><strong>Page</strong> Transitions1</h1></div>
-			<div class="pt-page pt-page-2"><h1><?php include("Offline\offline.php");?></h1></div>
+			<div class="pt-page pt-page-2"><h1><span>A collection of</span><strong>Page</strong> Transitions2</h1></div>
 			<div class="pt-page pt-page-3"><h1><span>A collection of</span><strong>Page</strong> Transitions3</h1></div>
 			<div class="pt-page pt-page-4"><h1><span>A collection of</span><strong>Page</strong> Transitions4</h1></div>
 			<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions5</h1></div>
