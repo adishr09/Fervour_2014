@@ -255,6 +255,13 @@ p.dummy-text:nth-child(3) {
 	color: #ddd;
 	font-size: 1em;
 }
+.dummy-head {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0;
+	color: #0f0f0f;
+	font-size: 1em;
+}
 
 .dummy-text:last-child {
 	padding-bottom: 100px;
