@@ -253,7 +253,7 @@ p.dummy-text:nth-child(3) {
 	margin: 0 auto;
 	padding: 10px 0;
 	color: #ddd;
-	font-size: 1em;
+	font-size: 15px;
 }
 .dummy-head {
 	text-align: center;
