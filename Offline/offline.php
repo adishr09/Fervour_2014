@@ -64,7 +64,7 @@
 				       <br><br>
                         <p class="dummy-text">RULES</p>
                         <p class="dummy-text">EVENT MANAGERS<br>Sakshi Rungta   Neeraj Yadav</p>
-                        <p class="dummy-text">Venue: B Block & A block</p>
+                        <p class="dummy-text">Venue: B Block / A block Lab</p>
                         <p class="dummy-text">Time: 12:00 AM - 3:00 PM
 				
 					</div>
@@ -94,7 +94,6 @@
 						<div class="dummy-img"></div>
                         <p class="dummy-head">SUMOBOTICS</p>
                         <p class="dummy-text">Our sumobotics event is inspired by the ancient japanese martial art, from where it gets its name. If you feel that your robot has the strength to draw the opponent's bot out of the ring, this IS THE EVENT FOR YOU. </p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
                         
                          <br><br>
                         <p class="dummy-text">RULES</p>
@@ -121,49 +120,111 @@
 						
                          <br><br>
                         <p class="dummy-text">RULES</p>
-                        <p class="dummy-text">EVENT MANAGERS<br>Tapan Khattar   Shivam Bhardwaj     Pranshu Jambh</p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Samarth Soni    Mridul Miglani  Akshita Gupta</p>
+                        <p class="dummy-text">Venue: Lawn Behind D Block Walls</p>
+                        <p class="dummy-text">Time: 12:00 PM - 4:00 PM
+					</div>
+					<div>
+						<div class="dummy-img"></div>
+						<p class="dummy-head">RUN FOR YOUR CODE</p>
+						<p class="dummy-text">articipant has to finish the given offline and online codes in minimum time period</p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Sonal Wadhwa    Kamal Nanda</p>
+                        <p class="dummy-text">Venue: A Block Lab</p>
+                        <p class="dummy-text">Time: 11:00 AM - 2:00 PM
+					</div>
+					<div>
+						<div class="dummy-img"></div>
+                        <p class="dummy-head">BLIND CODING</p>
+						<p class="dummy-text">Type your code with the monitor turned off</p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Aarushi Goel    Tanya Sah</p>
+                        <p class="dummy-text">Venue:B Block room / A Block Lab</p>
+                        <p class="dummy-text">Time: 12:00 PM - 2:00 PM
+                        
+					</div>
+					<div>
+						<div class="dummy-img"></div>
+                        <p class="dummy-head">FOLLOW ME</p>
+						<p class="dummy-text">A line following robot is one which trails the line on the path it navigates. In this event the robots follow a white line on a black surface or vice versa (will depend on the level). The contest will have TWO ROUNDS. In the first round, the bots will be pitted in a race against eeach other, where the fastest bot wins. In the second round, the robot will have to navigate several turns at different angles and shapes. The robot which is able to navigate the track in shortest time will be declared the winner. 
+</p>
+						<br><br>
+                        <p class="dummy-text">RULES:https://www.facebook.com/events/234838080052871/</p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Abhinav Sarkar   Siddhanth Gulhar Dhruv Gabba<br>Ph-8802865125   Ph-9810920546</p>
+                        <p class="dummy-text">Venue:MCA Hawa Mahel</p>
+                        <p class="dummy-text">Time: 12:00 PM - 2:00 PM
+                        
+					</div>
+					<div>
+						<div class="dummy-img"></div>
+                        <p class="dummy-head">TRAILBLAZER</p>
+						<p class="dummy-text">Run your bot on a path with out of the blue obstacles</p>
+						<br><br>
+                        <p class="dummy-text">RULES and Registration:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Udit Khanna     Naman Sharma    DeepaK</p>
                         <p class="dummy-text">Venue: Central Lawn</p>
-                        <p class="dummy-text">Time: 11:00 PM - 5:00 PM
+                        <p class="dummy-text">Time: 11:00 AM - 2:00 PM
+                        
 					</div>
 					<div>
 						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
+                        <p class="dummy-head">Clash Of the Titans:Ultimate PS3/Xbox Gamers</p>
+						<p class="dummy-text">PS3 and Xbox gaming event comprising of knockout rounds followed by a Tripple Threat Match declaring the winner.</p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Jagjot Singh Sehgal     Himanshu Aggarwal   Shivam Bindal</p>
+                        <p class="dummy-text">Venue: Table Tennis Room</p>
+                        <p class="dummy-text">Time: 11:00 AM - 5:00 PM
+                        
 					</div>
 					<div>
 						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
+                        <p class="dummy-head">MELA Quiz</p>
+						<p class="dummy-text"></p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Aryaman Nath     Prateek Narula</p>
+                        <p class="dummy-text">Venue: D Block Room 201</p>
+                        <p class="dummy-text">Time: 2:00 PM - 4:00 PM
+                        
 					</div>
 					<div>
 						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
+						
+                        <p class="dummy-head">Technical Quiz</p>
+						<p class="dummy-text"></p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br></p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Arjun Juneja</p>
+                        <p class="dummy-text">Venue: Seminar Hall</p>
+                        <p class="dummy-text">Time: 11:00 AM - 1:00 PM
+                        
 					</div>
 					<div>
 						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-					</div>
-					<div>
-						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-					</div>
-					<div>
-						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-					</div>
-					<div>
-						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-					</div>
-					<div>
-						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
+                        <p class="dummy-head">GOT THE AD-SENSE</p>
+						<p class="dummy-text">Ever thought about some weirdest products and felt that advertisements you see on tv could be much better?well you could be the next advertisement guru!! 
+Our PRODUCT, You THINK, You ENACT and make your own advertisement on the bizzare products.So! Its time to think new and innovative because NOTHING SELLS LIKE VIDEO!
+</p>
+						<br><br>
+                        <p class="dummy-text">RULES:<br>
+1.Max time for ad video is 2 mins.<br>
+2.Advertisement can be in English/Hindi or bilingual.<br>
+3.Participation in teams only. Maximum members allowed per team is 4.<br>
+4.Caution should be taken to refrain from displaying obscenity,violence etc.<br>
+5.In case video exceeds the time limit the team will be disqualified.<br>
+<br>
+The competition consists of only one round:<br>
+FIRST ROUND-Each team will be given one products name and after 15 mins they have to show us their advertisement video.
+
+INFRASTRUCTURE: space for registration and a classroom.
+</p>
+                        <p class="dummy-text">EVENT MANAGERS<br>Arjun Juneja</p>
+                        <p class="dummy-text">Venue: Seminar Hall</p>
+                        <p class="dummy-text">Time: 11:00 AM - 1:00 PM
+                        
 					</div>
 					<div>
 						<div class="dummy-img"></div>
