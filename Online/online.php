@@ -30,8 +30,9 @@
 						<img src="img/2.png" />
 						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 						<figcaption>
-							<h2>Crystalline</h2>
-							<p></p>
+							<h2>DESIGN THE WEB</h2>
+							<p>Do you have a knack for Web Designing? Do you think you can design the best User Interface and your websites use up to                                date technologies? So bring it on.
+                            </p>
 							<button>View</button>
 						</figcaption>
 					</figure>
@@ -42,8 +43,8 @@
 						<img src="img/4.png" />
 						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 						<figcaption>
-							<h2>Cacophony</h2>
-							<p>Two greens tigernut soybean radish artichoke.</p>
+							<h2>MATHS MAYHEM !!!!</h2>
+							<p>This 2014 ,   Fervour brings to you the online maths quiz , "Maths Mayhem" which is the algebraic sum of mind boggling questions and fun.</p>
 							<button>View</button>
 						</figcaption>
 					</figure>
@@ -54,8 +55,8 @@
 						<img src="img/6.png" />
 						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 						<figcaption>
-							<h2>Languid</h2>
-							<p>Beetroot water spinach okra water chestnut.</p>
+							<h2>STAGANOGRAPHY</h2>
+							<p>Find it in you the skill of finding the hidden your data.</p>
 							<button>View</button>
 						</figcaption>
 					</figure>
@@ -66,8 +67,9 @@
 						<img src="img/8.png" />
 						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 						<figcaption>
-							<h2>Serene</h2>
-							<p>Water spinach arugula pea tatsoi.</p>
+							<h2>THE TH</h2>
+							<p>THE ONLINE TREASURE HUNT is Here!<br>
+                                DIG OUT!</p>
 							<button>View</button>
 						</figcaption>
 					</figure>
@@ -78,8 +80,9 @@
 						<img src="img/1.png" />
 						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
 						<figcaption>
-							<h2>Nebulous</h2>
-							<p>Pea horseradish azuki bean lettuce.</p>
+							<h2>A DAY AT BVP</h2>
+							<p>We invite all shutterbugs to "a day in bvp" event as a part of online
+                            fervour.</p>
 							<button>View</button>
 						</figcaption>
 					</figure>
