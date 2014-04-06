@@ -1,0 +1,49 @@
+#wrapper {
+text-align:justify;
+width:90%;
+position:relative;
+margin:2.5% 5% 2.5% 5%;
+}
+
+#left{
+float:left;
+height:120%;
+width:50%;
+margin:0 0 0 5%;
+}
+
+#border{
+float:left;
+height:120%;
+width:2px;
+border-style:outset;
+margin:0 2% 0 2%;
+}
+
+#right{
+float:left;
+height:40%;
+width:20%;
+margin:0 5% 0 0%;
+}
+#right > p {
+float:left;
+
+margin: 2%;
+}
+
+#footer {
+text-align:justify;
+width:100%;
+}
+
+#left_f{
+clear:both;
+float:left;
+height:auto;
+width:100%;
+margin:2% 0 0 0;
+padding:0 3% 0 3%;
+background:#535353;
+position:inherit;
+}
