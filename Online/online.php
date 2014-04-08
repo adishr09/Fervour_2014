@@ -113,7 +113,7 @@
 						<figcaption>
 							<h2>WHAT DOES THE FOX SAYS</h2>
 							<p>Can you write a piece as ridiculous(or funny) as the above song??</p>
-							<button href="Events/what_does_the_fox_says.php">View</button>
+							<button>View</button>
 						</figcaption>
 					</figure>
 				</a>
