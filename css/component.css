@@ -86,24 +86,33 @@
 
 .os-phrases h2:nth-child(5) > span > span > span {
 	font-size: 150px;
-	-webkit-animation-delay: 21s;
-	-moz-animation-delay: 21s;
-	animation-delay: 21s;
+	-webkit-animation-delay: 18s;
+	-moz-animation-delay: 18s;
+	animation-delay: 18s;
 	-webkit-animation-duration: 8s;
 	-moz-animation-duration: 8s;
 	animation-duration: 8s;
 }
 
 .os-phrases h2:nth-child(6) > span > span > span {
-	-webkit-animation-delay: 30s;
-	-moz-animation-delay: 30s;
-	animation-delay: 30s;
+	-webkit-animation-delay: 25s;
+	-moz-animation-delay: 25s;
+	animation-delay: 25s;
 }
 
 .os-phrases h2:nth-child(7) > span > span > span {
-	-webkit-animation-delay: 34s;
-	-moz-animation-delay: 34s;
-	animation-delay: 34s;
+	-webkit-animation-delay: 29s;
+	-moz-animation-delay: 29s;
+	animation-delay: 29s;
+}
+.os-phrases h2:nth-child(8) > span > span > span {
+	font-size: 50px;
+	-webkit-animation: FadeIn 4s linear 40s forwards;
+	-moz-animation: FadeIn 4s linear 40s forwards;
+	animation: FadeIn 4s linear 40s forwards;
+	-webkit-animation-delay: 32s;
+	-moz-animation-delay: 32s;
+	animation-delay: 32s;
 }
 
 @-webkit-keyframes OpeningSequence {
@@ -184,12 +193,9 @@
 	}
 }
 
-.os-phrases h2:nth-child(8) > span > span > span {
-	font-size: 30px;
-	-webkit-animation: FadeIn 4s linear 40s forwards;
-	-moz-animation: FadeIn 4s linear 40s forwards;
-	animation: FadeIn 4s linear 40s forwards;
-}
+
+	
+
 
 @-webkit-keyframes FadeIn { 
 	0% {
