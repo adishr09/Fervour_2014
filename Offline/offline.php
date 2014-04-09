@@ -20,7 +20,7 @@
 			<header class="codrops-header">
 				<h1>Offline Events<span>List of all the offline events to be conducted on April, 16th 2014</span></h1>
 				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Back to Home Page</a>
+					<a class="current-demo" href="../2nd_homepage/home_page.html">Back to Home Page</a>
 				</nav>
 			</header>
 			<section class="grid3d vertical" id="grid3d">

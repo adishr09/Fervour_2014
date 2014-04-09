@@ -18,9 +18,9 @@
 		<div class="container">
 			<!-- Top Navigation -->
 			<header class="codrops-header">
-				<h1>Online Events<span>List of all the online events to be conducted till April, 16th 2014</span></h1>
+				<h1>Online Events<span>List of all the online events to be conducted till April, 15th 2014</span></h1>
 				<nav class="codrops-demos">
-					<a href="index.html">Back to Home Page</a>
+					<a href="../2nd_homepage/home_page.html">Back to Home Page</a>
 				</nav>
 			</header>
 			<section id="grid" class="grid clearfix">
