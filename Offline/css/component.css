@@ -304,7 +304,7 @@ p.dummy-text:nth-child(3) {
 
 	.grid figure,
 	.grid .placeholder {
-		width: 240px;
+		width: 240px !important;
 		height: 212px;
 	}
 
