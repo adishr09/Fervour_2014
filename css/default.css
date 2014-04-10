@@ -52,3 +52,41 @@ a:hover {
 	float: left;
 	display: block;
 }
+
+#wrapper {
+  text-align:center;
+  float:right;
+  border:1px solid #000;
+  width:inherit;
+  margin:0;
+  padding:0;
+  background-color:#000;
+}
+
+#myTimer {
+  font:15px Tahoma bold;
+  padding:0;
+  display:block;
+  opacity:0.3;
+}
+
+button {
+  width:inherit;
+  padding:10px;
+}
+
+.btnEnable {
+  background-color:#fff;
+  border:1px solid #000;
+  color:#232323;
+  cursor:pointer;
+  opacity:0.5;
+}
+
+.btnDisable {
+  background-color:#fff;
+  border:1px solid #000;
+  color:#232323;
+  cursor:wait;
+  opacity:0.2;
+}
