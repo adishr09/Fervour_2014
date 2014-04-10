@@ -64,7 +64,7 @@ body {
 .side-right {
 	right: 0;
 	background-image: url("../img/off.jpg");
-	background-size:100% 100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 	color: #e74c3c;
 	outline: 10px solid #fff; /* avoid gap */
