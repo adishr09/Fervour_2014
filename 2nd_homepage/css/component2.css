@@ -63,7 +63,7 @@ body {
 	right: 0;
 	background: #fff;
 	color: #e74c3c;
-	outline: 1px solid #fff; /* avoid gap */
+	outline: 10px solid #fff; /* avoid gap */
 }
 
 /* Intro content, profile image and name, back button */
@@ -80,16 +80,15 @@ body {
 
 .profile {
 	margin: 0 auto;
-	width: 140px;
-	height: 140px;
-	border-radius: 50%;
-	background: #e74c3c;
+	width: 141px;
+	height: 200px;
+	border-radius: 30%;
 }
 
 .profile img {
 	max-width: 100%;
 	border-radius: 50%;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 .intro-content h1 > span {
@@ -196,7 +195,7 @@ body {
 .page-left {
 	left: 0;
 	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #34495e;
+	background: #E86152;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
