@@ -54,14 +54,18 @@ body {
 
 .side-left {
 	left: 0;
-	background: #e74c3c;
+	background-image: url("../img/on.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 	color: #fff;
 	outline: 1px solid #e74c3c; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
-	background: #fff;
+	background-image: url("../img/off.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 	color: #e74c3c;
 	outline: 10px solid #fff; /* avoid gap */
 }
@@ -80,8 +84,6 @@ body {
 
 .profile {
 	margin: 0 auto;
-	width: 141px;
-	height: 200px;
 	border-radius: 30%;
 }
 
@@ -97,7 +99,7 @@ body {
 }
 
 .intro-content h1 > span:first-child {
-	font-weight: 300;
+	font-weight: 900;
 	font-size: 2em;
 }
 
@@ -235,6 +237,7 @@ body {
 }
 
 .intro-content {
+	back
 	-webkit-transition: -webkit-transform 0.5s ease-in-out, top 0.5s ease-in-out;
 	transition: transform 0.5s ease-in-out, top 0.5s ease-in-out;
 }
