@@ -93,6 +93,20 @@ body {
 	opacity: 0.9;
 }
 
+#sponser{
+height:150px;
+width:140px;
+margin:5px 10px 5px 0;
+float:left;
+}
+
+#sponser_r{
+height:150px;
+width:140px;
+margin:5px 10px 5px 0;
+float:right;
+}
+
 .intro-content h1 > span {
 	display: block;
 	white-space: nowrap;
