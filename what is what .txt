@@ -1,0 +1,48 @@
+$con=mysqli_connect("server ","username ","pass","db");
+
+$sql="INSERT INTO test (uid, name, level) VALUES ('$j', '$k', '$l')";
+
+test - table name 
+uid name level -> columns 
+$j,$k,$l -> var to be added 
+
+(!mysqli_query($con,$sql)) -> execute query 
+
+all sql query works 
+/*
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID; */ USE TWO TABLES AT ONE TIME 
+ make 2 tables.  in all the events 
+ store fb data + level and other for questions + level
+ use join at time of page call
+ http://www.php.net/manual/en/function.similar-text.php
+ ^ use this incase more than 2 words 
+ else use this 
+ http://www.php.net/manual/en/function.strcmp.php
+/********************************************************/
+ USE THIS FORMAT WHILE DISPLAYING 
+
+while($row = mysqli_fetch_array($result))
+  {
+  echo "<tr>";
+  echo "<td>" . $row['uid'] . "</td>";
+  echo "<td>" . $row['name'] . "</td>";
+      echo "<td>" . $row['level'] . "</td>";  <----------- LOOK HOW DATA ACCESED 
+
+  echo "</tr>";
+  }
+echo "</table>";
+
+http://www.w3schools.com/php/php_form_complete.asp
+^ FORM HANDLING IN CASE YOU NEED IT.
+
+
+/*********************************************/ 
+dATA BASE
+Database
+ewh.ieee.org/php/Admin
+delhibvce
+hdb32wb98
+
