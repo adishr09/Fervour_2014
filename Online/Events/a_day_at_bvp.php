@@ -1,4 +1,4 @@
-<html style="overflow-x:hidden;">
+<html id="page">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -6,6 +6,7 @@
 		<title>A DAY AT BVP - Online Fervour 2014</title>
 		<link rel="stylesheet" href="css/body.css" type="text/css">
 	</head>
+<body>
 <div id="wrapper" >
 	<div id="container">
 		<div id="left">
@@ -28,4 +29,5 @@
 		</div>
 	</div>
 </div>
+</body>
 </html>

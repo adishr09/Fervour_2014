@@ -1,15 +1,25 @@
+html{
+background:#e74c3c;
+height:75%;
+color:#fff;
+
+}
+
 #wrapper {
 text-align:justify;
 width:90%;
 position:relative;
 margin:2.5% 5% 2.5% 5%;
+font-weight: 800;
+	font-size: 1.2em;
 }
 
 #left{
 float:left;
-height:120%;
+text-align:left;
+height:inherit;
 width:50%;
-margin:0 0 0 5%;
+margin:15% 0 0 2%;
 }
 
 #border{
@@ -22,9 +32,9 @@ margin:0 2% 0 2%;
 
 #right{
 float:left;
-height:40%;
+height:inherit;
 width:20%;
-margin:0 5% 0 0%;
+margin:15% 5% 0 0%;
 }
 #right > p {
 float:left;
