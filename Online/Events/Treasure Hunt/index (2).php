@@ -1,5 +1,7 @@
 <?php
-$con=mysqli_connect("ewh.ieee.org/php/Admin","delhibvce","hdb32wb98","delhibvce");
+
+echo $_SERVER['SERVER_ADDR'];
+$con=mysqli_connect("ewh.ieee.org","delhibvce","hdb32wb98","delhibvce");
 // Check connection
 if (mysqli_connect_errno())
 {
