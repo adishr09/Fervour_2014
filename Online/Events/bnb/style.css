@@ -1,0 +1,45 @@
+#wrapper{
+	width:100%;
+	height:98%;
+	border:3px solid #fff;
+}
+
+#news{
+	width:32%;
+	height:inherit;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	border:2px solid #d3d3d3;
+}
+
+#stock{
+	width:32%;
+	height:inherit;
+	float:left;
+	text-align:center;
+	margin-right:15px;
+}
+
+#sub_stock{
+	width:100%;
+	height:48.5%;
+	margin-bottom:3%;
+	margin-right:10px;
+	border:2px solid yellow;
+}
+
+#sub_submit{
+	width:100%;
+	height:48.5%;
+	margin-bottom:3%;
+	margin-right:10px;
+	border:2px solid blue;
+}
+	
+#submit{
+	width:32%;
+	height:inherit;
+	float:left;
+	text-align:center;
+}
