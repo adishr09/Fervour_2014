@@ -4,42 +4,7 @@
 	</head>
 	<body>
 		<div id="ques">
-		<?php
-			$con=mysqli_connect("ewh.ieee.org/php/Admin","delhibvce","hdb32wb98","delhibvce");
-			// Check connection
-			if (mysqli_connect_errno())
-			{	
-				echo "Failed to connect to MySQL: " . mysqli_connect_error();
-			}
-			if (!mysqli_query($con,$sql))
-			{
-				die('Error: ' . mysqli_error($con));
-			}
-			$result = mysqli_query($con,"SELECT * FROM fervour_stock_ques");
-			echo "<table border='1'>
-			<tr>
-				<th>UID</th>
-				<th>STOCK PRICES</th>
-				<th>Credit</th>
-			</tr>";
-			while($row = mysqli_fetch_array($result))
-			{
-				echo "<tr>";
-				echo "<td>" . $row['uid'] . "</td>";
-				echo "<td>" . $row['name'] . "</td>";
-				echo "<td>" . $row['level'] . "</td>";
-				echo "</tr>";
-			}
-			echo "</table>";
-			$result = mysqli_query($con,"SELECT * FROM test
-			WHERE name='sss'");
-			while($row = mysqli_fetch_array($result))
-			{
-				echo $row['name'] . " " . $row['level'];
-				echo "<br>";
-			}
-			mysqli_close($con);
-			?>
+			<p>QUes Here</p>
 		</div>
 		<div id="submit">
 			<form action="demo_form.asp">

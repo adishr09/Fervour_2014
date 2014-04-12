@@ -30,7 +30,6 @@
 		<div id="border">
 		</div>
 		<div id="right">
-			<p>This is 2nd right</p>
 		</div>
 	</div>
 </div>

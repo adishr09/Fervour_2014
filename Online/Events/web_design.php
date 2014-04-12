@@ -40,7 +40,6 @@ Last date for submission: 15th April 2014
 		<div id="border">
 		</div>
 		<div id="right">
-			<p>This is 2nd right</p>
 		</div>
 	</div>
 </div>

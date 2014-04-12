@@ -1,11 +1,16 @@
-<?
-$link = mysql_connect('sandbox.ieee.org', 'delhibvce', 'hdb32wb98');
-mysql_select_db('delhibvce');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
+<?php
+$con=mysqli_connect("sandbox.ieee.org","delhibvce","hdb32wb98","information_schema");
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
 echo 'Connected successfully';
-$sql_query="update ieee_users set privilige=5 where uid = 'PREMSINGH'";
-mysql_query($sql_query) or die ($sql_query.mysql_error());
+$result = mysqli_query($con,"SELECT * FROM ieee_users");
 
+while($row = mysqli_fetch_array($result))
+  {
+  echo $row['uid'] . " " . $row['name']. " " . $row['institution']. " " . $row['roll'];
+  echo "<br>";
+  }
+  mysqli_close($con);
 ?>
