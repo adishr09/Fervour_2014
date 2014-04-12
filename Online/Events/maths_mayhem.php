@@ -10,11 +10,10 @@
 	<div id="container">
 		<div id="left">
 			<p>Maths Mayhem !!!!
-			This 2014 ,   Fervour brings to you the online maths quiz , "Maths Mayhem" which is the algebraic sum of mind boggling questions and fun.
-			Maths Mayhem is an online maths quiz that would be conducted by BVPIEEE on 12th of April,  2014. The quiz would approximately contain 20 questions with varying level of difficulty.  The time given to each contestant would be 30 minutes. 
-			The questions would be single correct and multi correct MCQ  and fill in the blanks. 
-			So , This April race your mind against time . Only at "Maths Mayhem, FERVOUR".
-			Is this f9 brother
+			This 2014, Fervour brings to you the online maths quiz, "Maths Mayhem", which is the algebraic sum of mind boggling questions and fun.
+			<br><br>Maths Mayhem is an online maths quiz that would be conducted by BVPIEEE on 12th of April,  2014. The quiz would approximately contain 20 questions with varying level of difficulty.  The time given to each contestant would be 30 minutes. 
+			<br><br>The questions would be single correct and multi correct MCQ  and fill in the blanks. 
+			<br><br>So, this April race your mind against time. Only at "Maths Mayhem, FERVOUR!".
 			</p>
 		</div>
 		<div id="border">
