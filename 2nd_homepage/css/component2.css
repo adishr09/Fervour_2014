@@ -95,14 +95,14 @@ body {
 
 #sponser{
 height:150px;
-width:140px;
+<?-- width:140px;
 margin:5px 10px 5px 0;
 float:left;
 }
 
 #sponser_r{
 height:150px;
-width:140px;
+<?-- width:140px;
 margin:5px 10px 5px 0;
 float:right;
 }
