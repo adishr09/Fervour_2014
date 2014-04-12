@@ -9,9 +9,9 @@
 <div id="wrapper" >
 	<div id="container">
 		<div id="left">
-			<p>Following is the event description for: "What does the fox say?"
-			If you can write a piece as ridiculous(or funny) as the above song, this competition is for you. Submit your creative writing entries and the one with the most humour(or satire) wins! 
-			Word limit: 300-350 words.
+			<p>"What does the fox say?"
+			<br><br>If you can write a piece as ridiculous(or funny) as the above song, this competition is for you.<br><br>Submit your creative writing entries and the one with the most humour (or satire) wins! 
+			<br><br>Word limit: 300-350 words.
 			</p>
 		<span class="button"> 
 				<a title="Example Button" href="../online.html">

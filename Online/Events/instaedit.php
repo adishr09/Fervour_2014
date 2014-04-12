@@ -10,17 +10,17 @@
 	<div id="container">
 		<div id="left">
 			<p>We invite all shutterbugs to "InstaEdit :Photography For Perfection" event as a part of online
-				fervour. All photographers get ready with your camera as you will be
+				fervour.<br><br>All photographers get ready with your camera as you will be
 				awarded for sharing your best moments of the day via photos, whether
-				its a coke with friends or candid moment with your crush. Express
-				yourself and stand a chance to win prizes.
-				Theme-"DOWN THE MEMORY LANE"
-				General guidelines-
-				-join the event page
-				-mail your pics-arshiyapeer94@gmail.com
-				-get your friends to like the pic
+				its a coke with friends or candid moment with your crush.<br><br>Express
+				yourself and stand a chance to win prizes.<br><br>
+				Theme - "DOWN THE MEMORY LANE"
+				<br><br>General guidelines-
+				<br>- Join the event page<br>
+				- Mail your pictures at arshiyapeer94@gmail.com<br>
+				- Get your friends to like the pic<br><br>
 				The winner will be on the basis of likes on the pic plus our assessment
-				So brace youself for the competition.</p>
+				<br><br>So brace yourself for the competition!</p>
 		<span class="button"> 
 				<a title="Example Button" href="../online.html">
 					<span class="arrows">
