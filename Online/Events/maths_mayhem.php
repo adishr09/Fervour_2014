@@ -15,6 +15,15 @@
 			<br><br>The questions would be single correct and multi correct MCQ  and fill in the blanks. 
 			<br><br>So, this April race your mind against time. Only at "Maths Mayhem, FERVOUR!".
 			</p>
+					<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
+
 		</div>
 		<div id="border">
 		</div>

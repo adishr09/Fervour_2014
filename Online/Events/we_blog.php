@@ -14,6 +14,14 @@
 			Keep it intriguing and different. 
 			Get, set, type! 
 			</p>
+		<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
 		</div>
 		<div id="border">
 		</div>

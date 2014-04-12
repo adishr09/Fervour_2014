@@ -19,6 +19,14 @@
 			Rule 1: Never lose money.
 			Rule 2: Never forget Rule 1.
 			</p>
+			<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
 		</div>
 		<div id="border">
 		</div>

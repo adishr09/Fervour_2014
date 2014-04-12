@@ -21,6 +21,14 @@
 				-get your friends to like the pic
 				The winner will be on the basis of likes on the pic plus our assessment
 				So brace youself for the competition.</p>
+		<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
 		</div>
 		<div id="border">
 		</div>

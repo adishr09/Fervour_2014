@@ -13,6 +13,14 @@
 			If you can write a piece as ridiculous(or funny) as the above song, this competition is for you. Submit your creative writing entries and the one with the most humour(or satire) wins! 
 			Word limit: 300-350 words.
 			</p>
+		<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
 		</div>
 		<div id="border">
 		</div>

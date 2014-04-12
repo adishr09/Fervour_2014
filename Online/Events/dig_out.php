@@ -18,6 +18,14 @@
 			Look for clues, take help from every scam or who/whatsoever u think cn hlp u reach the destined prize!
 			Answers to asked ques cn b hidden nywhere on internet, use clues n hints; enter answers which wil b a key clue to ur next ques.
 			</p>
+		<span class="button"> 
+				<a title="Example Button" href="../online.html">
+					<span class="arrows">
+						&#171;&nbsp;
+					</span>
+						Previous 
+				</a>
+			</span>    
 		</div>
 		<div id="border">
 		</div>
