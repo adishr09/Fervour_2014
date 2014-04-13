@@ -11,7 +11,7 @@
 
 html{
 background:#e74c3c;
-height:75%;
+height:100%;
 color:#fff;
 font-family: 'caviar_dreamsregular';
 }
@@ -30,7 +30,7 @@ float:left;
 text-align:left;
 height:inherit;
 width:50%;
-margin:15% 0 0 2%;
+margin:5% 0 0 2%;
 }
 
 #border{

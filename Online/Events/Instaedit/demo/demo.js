@@ -34,7 +34,7 @@ $(function(){
 	panel = '<li><img src="demo/*1.jpg" alt="picture" /><h2>News Heading #*2</h2><p>A very short exerpt goes here... <a href="#">more</a></p></li>',
 	// to test adding/removing panels to the second slider, comment out the line above and uncomment out the line below - slider-two uses divs instead of UL & LIs
 	// panel = '<div><img src="demo/*1.jpg" alt="picture" /><h2>News Heading #*2</h2><p>A very short exerpt goes here... <a href="#">more</a></p></div>',
-	slider = $('#slider-one'), // $('#slider-two'); // second slider
+	slider = $('#slider-one'),  $('#slider-two'); // second slider
 	api = slider.data('movingBoxes'),
 
 	// Set up demo external navigation links
