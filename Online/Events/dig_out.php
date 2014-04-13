@@ -30,6 +30,7 @@
 		<div id="border">
 		</div>
 		<div id="right">
+		<?php include("login.php"); ?>
 		</div>
 	</div>
 </div>

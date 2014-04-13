@@ -16,20 +16,9 @@
 		</div>
 		<div id="stock">
 			<div id="sub_stock">
-				<?php
-					$con=mysqli_connect("sandbox.ieee.org","delhibvce","hdb32wb98","delhibvce");
-					if (mysqli_connect_errno())
-					{
-						echo "Failed to connect to MySQL: " . mysqli_connect_error();
-					}
-					echo 'Connected successfully';
-					$result = mysqli_query($con,"SELECT * FROM fervour_2014_shares");
-					while($row = mysqli_fetch_array($result))
-					{
-						echo $row['sno'] . " " . $row['company']. " " . $row['initialprice'];
-					}
-					mysqli_close($con);
-				?>
+				<p>Stock</p>
+				<p>Tally</p>
+				<p>Here</p>
 			</div>
 			<div id="border_v">
 			</div>

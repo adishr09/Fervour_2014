@@ -40,6 +40,7 @@ Last date for submission: 15th April 2014
 		<div id="border">
 		</div>
 		<div id="right">
+			<center><a href="https://www.facebook.com/events/1401287866810508/"><p style="margin-left:55%;">View The Event on Facebook!!!</p></a></center>
 		</div>
 	</div>
 </div>

@@ -31,7 +31,8 @@
 		</div>
 		<div id="border">
 		</div>
-		<div id="right">
+		<div id="right" style="margin-left:8%;">
+		<?php include("login.php"); ?>
 		</div>
 	</div>
 </div>

@@ -33,6 +33,7 @@
 		<div id="border">
 		</div>
 		<div id="right">
+			<center><a href="https://www.facebook.com/events/433562143454314/"><p style="margin-left:55%;">View The Event Now!!!</p></a></center>
 		</div>
 	</div>
 </div>
