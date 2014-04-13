@@ -26,6 +26,7 @@
 		<div id="border">
 		</div>
 		<div id="right">
+			<center><a href="we_blog/index.html"><p style="margin-left:55%;">View The Blog Entries!!!</p></a></center>
 		</div>
 	</div>
 </div>
