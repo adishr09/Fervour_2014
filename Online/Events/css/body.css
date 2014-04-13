@@ -16,7 +16,7 @@ color:#fff;
 font-family: 'caviar_dreamsregular';
 }
 
-#wrapper {
+#wrapper{
 text-align:justify;
 width:90%;
 position:relative;
@@ -46,17 +46,12 @@ float:left;
 height:inherit;
 font-size:2em;
 width:30%;
-margin:15% 5% 0 0%;
+margin:25% 5% 0 0%;
 }
 
 #right > p {
 float:left;
 margin: 2%;
-}
-
-#footer {
-text-align:justify;
-width:100%;
 }
 
 #left_f{

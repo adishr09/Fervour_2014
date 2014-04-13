@@ -21,7 +21,7 @@
 			
 			</p>
 			<span class="button"> 
-				<a title="Example Button" href="../online.html">
+				<a title="Previous Button" href="../online.html">
 					<span class="arrows">
 						&#171;&nbsp;
 					</span>
@@ -32,7 +32,11 @@
 		<div id="border">
 		</div>
 		<div id="right" style="margin-left:8%;">
-		<?php include("login.php"); ?>
+			<span class="button"> 
+				<a title="Login Button" href="login/index.php">
+						LOGIN 
+				</a>
+			</span>    
 		</div>
 	</div>
 </div>

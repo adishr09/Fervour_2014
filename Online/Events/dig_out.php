@@ -19,7 +19,7 @@
 			Answers to asked questions can be hidden anywhere on internet, use clues and hints; Enter answers which will be a key clue to your next question.
 			</p>
 		<span class="button"> 
-				<a title="Example Button" href="../online.html">
+				<a title="Previous Button" href="../online.html">
 					<span class="arrows">
 						&#171;&nbsp;
 					</span>
@@ -29,8 +29,12 @@
 		</div>
 		<div id="border">
 		</div>
-		<div id="right">
-		<?php include("login.php"); ?>
+		<div id="right" style="margin-left:8%;">
+			<span class="button"> 
+				<a title="Login Button" href="login/index.php">
+						LOGIN 
+				</a>
+			</span>    
 		</div>
 	</div>
 </div>
