@@ -33,7 +33,7 @@
 		<div id="border">
 		</div>
 		<div id="right">
-			<center><a href="instaedit/index.html"><p style="margin-left:55%;">View The Pictures!!!</p></a></center>
+			<center><a href="http://ewh.ieee.org/sb/delhi/bvce/fervour/Online/Events/Instaedit/index.html"><p style="margin-left:55%;">View The Pictures!!!</p></a></center>
 		</div>
 	</div>
 </div>
