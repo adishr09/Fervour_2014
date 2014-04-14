@@ -29,7 +29,7 @@
 		</div>
 		<div id="right" style="margin-left:8%;">
 			<span class="button"> 
-				<a title="Login Button" href="login/index.php">
+				<a title="Login Button" href="Quiz/1.php">
 						LOGIN 
 				</a>
 			</span>    
