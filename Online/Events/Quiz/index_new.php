@@ -14,14 +14,20 @@
 			</div>
 		<script>
 			var sec = 1200;
+			var min = sec/60;
 			var myTimer = document.getElementById('myTimer');
 			var myBtn = document.getElementById('myBtn');
 			window.onload = countDown;
 			function countDown() {
 				if (sec < 10) {
-					myTimer.innerHTML = "0" + sec;
-				} else {
-					myTimer.innerHTML = sec;
+					myTimer.innerHTML = "0" + sec + " seconds";
+				} 
+				else if (sec <= 60){
+					myTimer.innerHTML = sec + " seconds";
+				}
+				else 
+				{
+					myTimer.innerHTML = min + " minutes";
 				}
 				if (sec <= 0) {
 					$("#myBtn").removeAttr("disabled");
