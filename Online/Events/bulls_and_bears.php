@@ -10,7 +10,7 @@
 	<div id="container">
 		<div id="left">
 			<p>Are you fascinated by the stock market? By shares, profits and revenues?<br><br>
-			And if you think you have what it takes to be the next Buffet, Belfort or Trump, then [BULLS AND BEARS] is for you.<br><br>
+			And if you think you have what it takes to be the next Buffet, Belfort or Trump, then "BULLS AND BEARS" is for you.<br><br>
 			It’s a simple and great chance for you to trade in the stock market without investing a rupee. Come and learn the ropes of this captivating market in a virtual stock exchange, investing money in stocks and making huge profits. The greater your profit, the better you are.
 			<br><br>The event will be played online for seven days starting on [start date].<br><br>Be ready to buy or sell your stocks as news pours in from around the world each hour the market is open. Remember, 
 			<br><br>“Sometimes your best investments are the ones you don't make.” – Donald Trump Sr.
