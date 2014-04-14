@@ -27,7 +27,9 @@
 				}
 				else 
 				{
-					myTimer.innerHTML = min + " minutes";
+					var min = sec/60;
+					var min1 = Math.ceil(min);
+					myTimer.innerHTML = min1 + " minutes";
 				}
 				if (sec <= 0) {
 					$("#myBtn").removeAttr("disabled");
