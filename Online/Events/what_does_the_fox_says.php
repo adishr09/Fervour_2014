@@ -12,7 +12,10 @@
 			<p>"What does the fox say?"
 			<br><br>If you can write a piece as ridiculous(or funny) as the above song, this competition is for you.<br><br>Submit your creative writing entries and the one with the most humour (or satire) wins! 
 			<br><br>Word limit: 300-350 words.
-			</p>
+			<br><br>Please Submit Your Entries To:<br>bhanushee01@gmail.com
+            <br><br>Deadline:15th April
+            </p>
+            
 		<span class="button"> 
 				<a title="Example Button" href="../online.html">
 					<span class="arrows">

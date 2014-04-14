@@ -14,6 +14,9 @@
 			<br><br>Keep it intriguing and different. 
 			<br><br>Get, set, type! 
 			</p>
+            <p>
+            Please Submit Your Entries To:<br>dharvi.verma@gmail.com<br>or<br>pr_gl@yahoo.in
+            </p>
 		<span class="button"> 
 				<a title="Example Button" href="../online.html">
 					<span class="arrows">
