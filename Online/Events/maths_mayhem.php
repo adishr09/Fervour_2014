@@ -30,7 +30,12 @@
 		<div id="right" style="margin-left:8%;">
 			<span class="button"> 
 				<a title="Login Button" href="Quiz/1.php">
-						LOGIN 
+						LOGIN(RND 1)
+				</a>
+			</span>    
+			<span class="button"> 
+				<a title="Login Button" href="Quiz_2/1.php">
+						LOGIN(RND 2) 
 				</a>
 			</span>    
 		</div>
