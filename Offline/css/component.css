@@ -133,7 +133,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(255,255,255,0.8);
+	background: rgba(71, 163, 218, 0.82);
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
@@ -150,7 +150,7 @@
 	height: 100%;
 	background: #3C3C3C;
 	border: 50px solid #3C3C3C;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 .slideshow figcaption {
