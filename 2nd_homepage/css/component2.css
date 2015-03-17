@@ -66,7 +66,7 @@ body {
 	background-image: url("../img/off.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	color: #e74c3c;
+	color: ##FF0000;
 	outline: 10px solid #fff; /* avoid gap */
 }
 
@@ -202,8 +202,8 @@ float:right;
 .page-right {
 	left: 25%;
 	outline: 5px solid #ecf0f1; /* avoid rounding gaps */
-	background: #ecf0f1;
-	color: #97a8b2;
+	background: #9D0000;
+	color: #FFFFFF;
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 }
@@ -234,7 +234,7 @@ float:right;
 }
 
 .page-inner p {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 0.9em;
 }
 
