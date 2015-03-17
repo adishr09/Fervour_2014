@@ -55,7 +55,7 @@ body {
 .side-left {
 	left: 0;
 	background-image: url("../img/on.jpg");
-	background-size:100% 100%;
+	background-size:cover;
 	background-repeat:no-repeat;
 	color: #fff;
 	outline: 1px solid #e74c3c; /* avoid gap */
@@ -202,8 +202,8 @@ float:right;
 .page-right {
 	left: 25%;
 	outline: 5px solid #ecf0f1; /* avoid rounding gaps */
-	background: #9D0000;
-	color: #FFFFFF;
+	background: #E4E5DD;
+	color: #383838;
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 }
@@ -211,7 +211,7 @@ float:right;
 .page-left {
 	left: 0;
 	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #E86152;
+	background: #9D0000;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
