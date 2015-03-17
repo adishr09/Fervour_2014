@@ -5,6 +5,7 @@
 * { 
   margin: 0; 
   padding: 0; 
+  color:#fffc00
 }
 
 body { 
@@ -13,10 +14,11 @@ body {
 
 .demo-title {
   text-align: center;
-  color: #a71700;
+  color: #fffc00;
   text-transform: uppercase;
   padding: 30px 0 0;
   font-size: 60px;
+  margin-bottom:8%;
 }
 
 /* Navigation bar */
