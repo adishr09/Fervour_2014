@@ -202,8 +202,8 @@ float:right;
 .page-right {
 	left: 25%;
 	outline: 5px solid #ecf0f1; /* avoid rounding gaps */
-	background: #E4E5DD;
-	color: #383838;
+	background: #323232;
+	color: #E0E0E0;
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 }
@@ -211,7 +211,7 @@ float:right;
 .page-left {
 	left: 0;
 	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #9D0000;
+	background: #710000;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
@@ -234,7 +234,7 @@ float:right;
 }
 
 .page-inner p {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 0.9em;
 }
 
