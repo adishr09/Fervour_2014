@@ -19,6 +19,10 @@
 		$uname=$q_row['uname'];
 		$end=$q_row['done_2'];
 		if($uname==$u && $end==0){$_SESSION['uname']=$u; 
+<<<<<<< HEAD
+=======
+		$_SESSION['time']=time(); 
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 		header( 'Location: quiz/index.php' ) ;
 		}
 		else if ($end != 0 ){header( 'Location: exit.php' ) ;}

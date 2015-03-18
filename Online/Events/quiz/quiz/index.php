@@ -18,6 +18,7 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<<<<<<< HEAD
 	<style>img{height:300px;}p{top:-170px;position:relative;}input[type="text"]{position:relative;top:-170px;}</style>
 	<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
 </head>
@@ -208,6 +209,11 @@
    header( 'Location: exit.php' );}
    }
 ?>
+=======
+	<style>img{height:300px;}p{top:-170px;position:relative;}input[type="text"]{position:relative;top:-170px;}</style>	
+	<!--<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>-->
+</head>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 <body>
 	<div class="container">
 		<div id="slideshow" class="slideshow">
@@ -216,7 +222,11 @@
 				<button type="button" id="myBtn" class="btnDisable" disabled onclick="parent.location='2nd_homepage/home_page.html'">Tick Tock</button>
 		</div>
 		<script>
+<<<<<<< HEAD
 			var sec = 1080;
+=======
+			var sec = 1800;
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 			var myTimer = document.getElementById('myTimer');
 			var myBtn = document.getElementById('myBtn');
 			window.onload = countDown;
@@ -230,13 +240,21 @@
 					$("#myBtn").removeAttr("disabled");
 					$("#myBtn").removeClass().addClass("btnEnable");
 					$("#myTimer").fadeTo(2500, 0);
+<<<<<<< HEAD
+=======
+					 
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 					myBtn.innerHTML = "Skip";
 				return;
 			}
 			sec -= 1;
 			window.setTimeout(countDown, 1000);
 		}</script>
+<<<<<<< HEAD
 		<form action="index.php" method="post">
+=======
+		<form action="qqw.php" method="post">
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 			<ul>
                 <li>
                     <div class="slide">
@@ -372,7 +390,11 @@
 							 What is the minimum number of tables required to represent this situation in the relational model? </span><br /><br />
                          </p>    <select name="6">
     					<option value="NILL"></option>
+<<<<<<< HEAD
 						<option value="A">2<option>
+=======
+						<option value="A">2</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">3</option>
                         <option value="C">4</option>
     					<option value="D">5</option>
@@ -389,7 +411,11 @@
                        <span style="font-size:30px;">Which of the following scenarios may lead to an irrecoverable error in a database system ?  </span><br /><br />
                          </p>    <select name="7">
     					<option value="NILL"></option>
+<<<<<<< HEAD
 						<option value="A">A transaction writes a data item after it is read by an uncommitted transaction<option>
+=======
+						<option value="A">A transaction writes a data item after it is read by an uncommitted transaction</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">A transaction reads a data item after it is read by an uncommitted transaction</option>
                         <option value="C">A transaction reads a data item after it is written by a committed transaction</option>
     					<option value="D">A transaction reads a data item after it is written by an uncommitted transaction</option>
@@ -405,9 +431,15 @@
  onmousedown='return false;'>
  
 						  <span style="font-size:30px;">A clustering index is defined on the fields which are of type </span><br /><br />
+<<<<<<< HEAD
                          </p>    <select name="6">
     					<option value="NILL"></option>
 						<option value="A">non-key and ordering<option>
+=======
+                         </p>    <select name="8">
+    					<option value="NILL"></option>
+						<option value="A">non-key and ordering</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">non-key and non-ordering</option>
                         <option value="C">key and ordering </option>
     					<option value="D">key and non-ordering</option>
@@ -433,9 +465,15 @@
 								}<br>
 						</span>
 						
+<<<<<<< HEAD
                          </p>    <select name="6" style="top:-110px;">
     					<option value="NILL"></option>
 						<option value="A">0 1 2 .... 65535<option>
+=======
+                         </p>    <select name="9" style="top:-110px;">
+    					<option value="NILL"></option>
+						<option value="A">0 1 2 .... 65535</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">0 1 2 ...32767-32766-....1 0</option>
                         <option value="C">No output </option>
     					<option value="D">Infinite loop</option>
@@ -457,9 +495,15 @@
 								}<br>
 
 						</span><br /><br />
+<<<<<<< HEAD
                          </p>    <select name="6">
     					<option value="NILL"></option>
 						<option value="A">ffff<option>
+=======
+                         </p>    <select name="10">
+    					<option value="NILL"></option>
+						<option value="A">ffff</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">0</option>
                         <option value="C"> fff8</option>
     					<option value="D">Error</option>
@@ -490,10 +534,17 @@
 
 						</span><br /><br /><br /><br />
 						
+<<<<<<< HEAD
                          </p><br><p></p>    <select name="6">
     					
 						<option value="NILL"></option>
 						<option value="A">Garbage value<option>
+=======
+                         </p><br><p></p>    <select name="11">
+    					
+						<option value="NILL"></option>
+						<option value="A">Garbage value</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">0 (Zero)</option>
                         <option value="C"> 1990</option>
     					<option value="D">No output</option>
@@ -516,9 +567,15 @@
 
 
 						</span><br /><br />
+<<<<<<< HEAD
                          </p>    <select name="6">
     					<option value="NILL"></option>
 						<option value="A">0<option>
+=======
+                         </p>    <select name="12">
+    					<option value="NILL"></option>
+						<option value="A">0</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">1</option>
                         <option value="C"> Compile Error</option>
     					<option value="D">Run time Error</option>
@@ -534,8 +591,13 @@
  onselectstart='return false;' 
  onmousedown='return false;'>
                               <span style="color:white; font-size: 20px;">
+<<<<<<< HEAD
                             Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications.<br /> Match entries in Group 1 to entries in Group 2.  <br />
                             <br /><br /><center><table>
+=======
+                            Which of the following statements are correct?
+                            <center><table style="margin-top:-22%">
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
                             <tr>
                             <td>1.	An argument passed to a ref parameter need not be initialized first</td> 
                          
@@ -546,7 +608,10 @@
                             </tr>
                             <tr>
                          
+<<<<<<< HEAD
                             <td>    </td>
+=======
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
                             <td>3.	Argument that uses params keyword must be the last argument of variable argument list of a method.</td>
                             </tr>
                             <tr>
@@ -561,7 +626,11 @@
 
                       <br /><br /> 
 					  </span>
+<<<<<<< HEAD
                           <select name="4">
+=======
+                          <select name="13" style="margin-top:20%;">
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 						  <option value="NILL"></option>
     					<option value="A">A.
 1, 2
@@ -598,10 +667,17 @@
 
 
 														</span><br /><br />
+<<<<<<< HEAD
 														 </p>    <select name="6">
 														<option value="A">A.
 								0, 1, 3
 								<option>
+=======
+														 </p>    <select name="14">
+														<option value="A">A.
+								0, 1, 3
+								</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 														<option value="B">B.
 								1, 2, 3
 								</option>
@@ -639,9 +715,15 @@
 
 
 						</span><br /><br />
+<<<<<<< HEAD
                          </p>    <select name="6">
 						 <option value="NILL"></option>
     					<option value="A">0<option>
+=======
+                         </p>    <select name="15">
+						 <option value="NILL"></option>
+    					<option value="A">0</option>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
     					<option value="B">1</option>
                         <option value="C"> Compile Error</option>
     					<option value="D">Run time Error</option>
