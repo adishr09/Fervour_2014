@@ -211,7 +211,7 @@ float:right;
 .page-left {
 	left: 0;
 	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #710000;
+	background: rgb(58, 58, 58);
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);

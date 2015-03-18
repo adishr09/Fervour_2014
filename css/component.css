@@ -67,15 +67,15 @@
 }
 
 .os-phrases h2:nth-child(2) > span > span > span {
-	-webkit-animation-delay: 5s;
-	-moz-animation-delay: 5s;
-	animation-delay: 5s;
+	-webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	animation-delay: 7s;
 }
 
 .os-phrases h2:nth-child(3) > span > span > span {
-	-webkit-animation-delay: 10s;
-	-moz-animation-delay: 10s;
-	animation-delay: 10s;
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	animation-delay: 12s;
 }
 
 .os-phrases h2:nth-child(4) > span > span > span {
