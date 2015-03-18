@@ -21,196 +21,6 @@
 	<style>img{height:300px;}p{top:-170px;position:relative;}input[type="text"]{position:relative;top:-170px;}</style>	
 	<!--<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>-->
 </head>
-<?php
-   session_start();
-   if(isset($_POST['1']) && isset($_POST['2'])&& isset($_POST['3'])&& isset($_POST['4'])&& isset($_POST['5'])&& isset($_POST['6'])&& isset($_POST['7'])&& isset($_POST['8'])&& isset($_POST['9'])&& isset($_POST['10'])&& isset($_POST['11'])&& isset($_POST['12'])&& isset($_POST['13'])&& isset($_POST['14'])&& isset($_POST['15']))
-   {
-   mysql_connect('mysql1.freehosting.com', 'bvpieeec_lol', 'hdb32wb98') or die("<br/>error");
-   mysql_select_db('bvpieeec_delhibvce') or die("<br>DB_error");
-	$ses =  $_SESSION['uname'];
-       if(!isset ($ses))
-       {
-        
-        header('Location: ../1.php');
-        echo "LOGIN FIRST";
-       }
-	   $d=$_SESSION['done_2'];
-	   if($d!=0)
-       {
-        
-        header('Location: exit.php');
-       }
-  
-   /*
-   {
-       $lel = $pwRow['level'] +1;
-       echo $lel;
-       */
-   $sql_query= "SELECT * FROM `vsq_15` WHERE uname ="."'". $ses."';";
-   $res = mysql_query($sql_query) or die ($sql_query.mysql_error());
-   $pwRow1 = mysql_fetch_array($res,mysql_assoc);
-   $lev2 = $row["total"];
-   $lev = 0;     
-   $lev = $lev + $lev2;
-	$a1=$_POST['1'];
-	$a2=$_POST['2'];
-	$a3=$_POST['3'];
-	$a4=$_POST['4'];
-	$a5=$_POST['5'];
-	$a6=$_POST['6'];
-	$a7=$_POST['7'];
-	$a8=$_POST['8'];
-	$a9=$_POST['9'];
-	$a10=$_POST['10'];
-	$a11=$_POST['11'];
-	$a12=$_POST['12'];
-	$a13=$_POST['13'];
-	$a14=$_POST['14'];
-	$a15=$_POST['15'];
-        
-		switch($a1)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-			defualt: break;	
-							
-		}
-		   
-		switch($a2)
-		{
-			case 'B': 
-				$lev =$lev+1; break;
-				
-	
-		}
-		   
-		switch($a3)
-		{
-			case 'B': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a4)
-		{
-			case 'A': 
-				$lev =$lev+1; break;
-				
-			
-							
-		}
-		   
-		switch($a5)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a6)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-			
-							
-		}   
-		switch($a7)
-		{
-			case 'D': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a8)
-		{
-			case 'A': 
-				$lev =$lev+1; break;
-				
-			
-							
-		}
-		   
-		switch($a9)
-		{
-			case 'D': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a10)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-				
-							
-		}
-		   
-		switch($a11)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a12)
-		{
-			case 'A': 
-				$lev =$lev+1; break;
-				
-				
-							
-		}
-		   
-		switch($a13)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a14)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-		   
-		switch($a15)
-		{
-			case 'C': 
-				$lev =$lev+1; break;
-				
-		
-							
-		}
-	   
-	   if($lev >=1){
-		   if(time() - $session['time']) {
-			   $lev = $lev - 20;
-		   }
-	   $lol= "UPDATE `vsq_15` SET `total` = "."'". $lev."'" ." , `done_2` = 1 WHERE  `uname` ="."'". $ses."'";
-		$res = mysql_query($lol) or die (mysql_error());
-   
-   header( 'Location: exit.php' );}
-   }
-?>
 <body>
 	<div class="container">
 		<div id="slideshow" class="slideshow">
@@ -219,11 +29,10 @@
 				<button type="button" id="myBtn" class="btnDisable" disabled onclick="parent.location='2nd_homepage/home_page.html'">Tick Tock</button>
 		</div>
 		<script>
-			var sec = 3;
+			var sec = 1800;
 			var myTimer = document.getElementById('myTimer');
 			var myBtn = document.getElementById('myBtn');
 			window.onload = countDown;
-			$.post("somepage.php");
 			function countDown() {
 				if (sec < 10) {
 					myTimer.innerHTML = "0" + sec;
@@ -241,7 +50,7 @@
 			sec -= 1;
 			window.setTimeout(countDown, 1000);
 		}</script>
-		<form action="index.php" method="post">
+		<form action="qqw.php" method="post">
 			<ul>
                 <li>
                     <div class="slide">
@@ -377,7 +186,7 @@
 							 What is the minimum number of tables required to represent this situation in the relational model? </span><br /><br />
                          </p>    <select name="6">
     					<option value="NILL"></option>
-						<option value="A">2<option>
+						<option value="A">2</option>
     					<option value="B">3</option>
                         <option value="C">4</option>
     					<option value="D">5</option>
@@ -394,7 +203,7 @@
                        <span style="font-size:30px;">Which of the following scenarios may lead to an irrecoverable error in a database system ?  </span><br /><br />
                          </p>    <select name="7">
     					<option value="NILL"></option>
-						<option value="A">A transaction writes a data item after it is read by an uncommitted transaction<option>
+						<option value="A">A transaction writes a data item after it is read by an uncommitted transaction</option>
     					<option value="B">A transaction reads a data item after it is read by an uncommitted transaction</option>
                         <option value="C">A transaction reads a data item after it is written by a committed transaction</option>
     					<option value="D">A transaction reads a data item after it is written by an uncommitted transaction</option>
@@ -410,9 +219,9 @@
  onmousedown='return false;'>
  
 						  <span style="font-size:30px;">A clustering index is defined on the fields which are of type </span><br /><br />
-                         </p>    <select name="6">
+                         </p>    <select name="8">
     					<option value="NILL"></option>
-						<option value="A">non-key and ordering<option>
+						<option value="A">non-key and ordering</option>
     					<option value="B">non-key and non-ordering</option>
                         <option value="C">key and ordering </option>
     					<option value="D">key and non-ordering</option>
@@ -438,9 +247,9 @@
 								}<br>
 						</span>
 						
-                         </p>    <select name="6" style="top:-110px;">
+                         </p>    <select name="9" style="top:-110px;">
     					<option value="NILL"></option>
-						<option value="A">0 1 2 .... 65535<option>
+						<option value="A">0 1 2 .... 65535</option>
     					<option value="B">0 1 2 ...32767-32766-....1 0</option>
                         <option value="C">No output </option>
     					<option value="D">Infinite loop</option>
@@ -462,9 +271,9 @@
 								}<br>
 
 						</span><br /><br />
-                         </p>    <select name="6">
+                         </p>    <select name="10">
     					<option value="NILL"></option>
-						<option value="A">ffff<option>
+						<option value="A">ffff</option>
     					<option value="B">0</option>
                         <option value="C"> fff8</option>
     					<option value="D">Error</option>
@@ -495,10 +304,10 @@
 
 						</span><br /><br /><br /><br />
 						
-                         </p><br><p></p>    <select name="6">
+                         </p><br><p></p>    <select name="11">
     					
 						<option value="NILL"></option>
-						<option value="A">Garbage value<option>
+						<option value="A">Garbage value</option>
     					<option value="B">0 (Zero)</option>
                         <option value="C"> 1990</option>
     					<option value="D">No output</option>
@@ -521,9 +330,9 @@
 
 
 						</span><br /><br />
-                         </p>    <select name="6">
+                         </p>    <select name="12">
     					<option value="NILL"></option>
-						<option value="A">0<option>
+						<option value="A">0</option>
     					<option value="B">1</option>
                         <option value="C"> Compile Error</option>
     					<option value="D">Run time Error</option>
@@ -539,7 +348,7 @@
  onselectstart='return false;' 
  onmousedown='return false;'>
                               <span style="color:white; font-size: 20px;">
-                            Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications.<br /> Match entries in Group 1 to entries in Group 2. 
+                            Which of the following statements are correct?
                             <center><table style="margin-top:-22%">
                             <tr>
                             <td>1.	An argument passed to a ref parameter need not be initialized first</td> 
@@ -551,7 +360,6 @@
                             </tr>
                             <tr>
                          
-                            <td>    </td>
                             <td>3.	Argument that uses params keyword must be the last argument of variable argument list of a method.</td>
                             </tr>
                             <tr>
@@ -566,7 +374,7 @@
 
                       <br /><br /> 
 					  </span>
-                          <select name="4" style="margin-top:20%;">
+                          <select name="13" style="margin-top:20%;">
 						  <option value="NILL"></option>
     					<option value="A">A.
 1, 2
@@ -603,10 +411,10 @@
 
 
 														</span><br /><br />
-														 </p>    <select name="6">
+														 </p>    <select name="14">
 														<option value="A">A.
 								0, 1, 3
-								<option>
+								</option>
 														<option value="B">B.
 								1, 2, 3
 								</option>
@@ -644,9 +452,9 @@
 
 
 						</span><br /><br />
-                         </p>    <select name="6">
+                         </p>    <select name="15">
 						 <option value="NILL"></option>
-    					<option value="A">0<option>
+    					<option value="A">0</option>
     					<option value="B">1</option>
                         <option value="C"> Compile Error</option>
     					<option value="D">Run time Error</option>
