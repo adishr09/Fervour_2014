@@ -82,8 +82,7 @@
 			case 'B': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
-							
+	
 		}
 		   
 		switch($a3)
@@ -91,7 +90,7 @@
 			case 'B': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -100,7 +99,7 @@
 			case 'A': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+			
 							
 		}
 		   
@@ -109,7 +108,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -118,7 +117,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+			
 							
 		}   
 		switch($a7)
@@ -126,7 +125,7 @@
 			case 'D': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -135,7 +134,7 @@
 			case 'A': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+			
 							
 		}
 		   
@@ -144,7 +143,7 @@
 			case 'D': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -153,7 +152,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+				
 							
 		}
 		   
@@ -162,7 +161,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -171,7 +170,7 @@
 			case 'A': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+				
 							
 		}
 		   
@@ -180,7 +179,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -189,7 +188,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 		   
@@ -198,7 +197,7 @@
 			case 'C': 
 				$lev =$lev+1; break;
 				
-			defualt: break;	
+		
 							
 		}
 	   
