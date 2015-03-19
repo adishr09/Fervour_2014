@@ -1,3 +1,45 @@
+<?php 
+session_start();
+
+// Global Variable Declarations  
+$p_dlf = 7;
+$p_itc = 4;
+$p_airtel = 8;
+$p_dabur = 5;
+$p_maruti = 7.5;
+$p_ongc = 3;
+$p_pnb = 2.5;
+$credits = 1000; 
+
+$_SESSION['u_dlf'] = 0;
+$_SESSION['u_itc'] = 0;
+$_SESSION['u_airtel'] = 0;
+$_SESSION['u_dabur'] = 0;
+$_SESSION['u_maruti'] = 0;
+$_SESSION['u_ongc'] = 0;
+$_SESSION['u_pnb'] = 0;
+$_SESSION['credits'] = 0;
+
+$_SESSION['$p_dlf'] = 0;
+$_SESSION['$p_itc'] = 0;
+$_SESSION['$p_airtel'] = 0;
+$_SESSION['$p_dabur'] = 0;
+$_SESSION['$p_maruti'] = 0;
+$_SESSION['$p_ongc'] = 0;
+$_SESSION['$p_pnb'] = 0;
+
+    	mysql_connect('localhost', 'root', '') or die("<br/>error");
+		mysql_select_db('bvpieee') or die("<br>DB_error");
+		$q="UPDATE `bnb` SET `Dlf`=".$p_dlf.",`ITC`=".$p_itc.",`Airtel`=".$p_airtel.",`Dabur`=".$p_dabur.",`Maruti`=".$p_maruti.",`Ongc`=".$p_ongc.",`Pnb`=".$p_pnb.",`credits`=".$credits." WHERE 1";
+		
+		$q_run=mysql_query($q) or die("<br/>error_run");
+	//	$q_row=mysql_fetch_assoc($q_run);
+        
+		
+
+
+?>
+
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css" />
@@ -33,34 +75,39 @@
 		</div>
 		<div id="submit">
 			<div id="sub_submit">
-				<form action="demo_form.asp" style="margin-top:5%;">
+			<form action="sell.php" style="margin-top:5%;">
 				<select name="stocks">
-					<option value="volvo">Volvo</option>
-					<option value="saab">Saab</option>
-					<option value="fiat">Fiat</option>
-					<option value="audi">Audi</option>
+					<option value="DLF">DLF</option>
+					<option value="ITC">ITC </option>
+					<option value="Airtel">Airtel  </option>
+					<option value="Dabur">Dabur </option>
+                    <option value="Maruti">Maruti  </option>
+					<option value="ONGC">ONGC  </option>
+					<option value="PNB">PNB </option>
 				</select>
 				<br><br>
-				Quantity<input type="text" name="Answer" value=""><br><br>
-				Current Credit<input type="text" name="Answer" value="" disabled><br><br>
-				Credit after purchase<input type="text" name="Answer" value="" disabled><br><br>
+				Quantity<input type="number" name="answer" min="1"><br><br>
+				Current Credit<input type="text" name="cc" value="" disabled><br><br>
+				Credit after Sell<input type="text" name="cas" value="" disabled><br><br>
 				<input type="submit" value="Purchase Stock">
-				</form>
 			</div>
 			<div id="border_v">
 			</div>
 			<div id="sub_submit">
-				<form action="demo_form.asp" style="margin-top:5%;">
+				<form action="sell.php" style="margin-top:5%;">
 				<select name="stocks">
-					<option value="volvo">Volvo</option>
-					<option value="saab">Saab</option>
-					<option value="fiat">Fiat</option>
-					<option value="audi">Audi</option>
+					<option value="DLF">DLF</option>
+					<option value="ITC">ITC </option>
+					<option value="Airtel">Airtel  </option>
+					<option value="Dabur">Dabur </option>
+                    <option value="Maruti">Maruti  </option>
+					<option value="ONGC">ONGC  </option>
+					<option value="PNB">PNB </option>
 				</select>
 				<br><br>
-				Quantity<input type="text" name="Answer" value=""><br><br>
-				Current Credit<input type="text" name="Answer" value="" disabled><br><br>
-				Credit after Sell<input type="text" name="Answer" value="" disabled><br><br>
+				Quantity<input type="number" name="answer" min="1"><br><br>
+				Current Credit<input type="text" name="cc" value="" disabled><br><br>
+				Credit after Sell<input type="text" name="cas" value="" disabled><br><br>
 				<input type="submit" value="Sell Stock">
 			</form>
 			</div>
