@@ -6,57 +6,54 @@
  */
 session_start();
 $u_dlf = $_SESSION['u_dlf'];
-echo $u_dlf;
 $u_itc =$_SESSION['u_itc'] ;
 $u_airtel =$_SESSION['u_airtel'] ;
-echo $u_airtel;
 $u_dabur =$_SESSION['u_dabur'] ;
 $u_maruti =$_SESSION['u_maruti'] ;
 $u_ongc =$_SESSION['u_ongc'] ;
 $u_pnb =$_SESSION['u_pnb'] ;
 $credits =$_SESSION['credits'] ;
-echo $credits;
+
 $p_dlf = $_SESSION['$p_dlf'];
 $p_itc =$_SESSION['$p_itc'] ;
-echo $p_itc;
 $p_airtel =$_SESSION['$p_airtel'] ;
 $p_dabur =$_SESSION['$p_dabur'] ;
 $p_maruti =$_SESSION['$p_maruti'] ;
 $p_ongc =$_SESSION['$p_ongc'] ;
 $p_pnb =$_SESSION['$p_pnb'] ;
+
 $com = $_POST['stocks'];
-echo $com;
 $amm = $_POST['answer'];
-echo $amm;
+
 switch($com)
 		{
 			case 'DLF': 
-             $u_dlf -= $amm;
-             $credits = $credits + ($p_dlf*$amm);
+             $u_dlf += $amm;
+             $credits = $credits - ($p_dlf*$amm);
 			break;
             case 'ITC': 
-             $u_itc -= $amm;
-             $credits = $credits + ($p_itc*$amm);
+             $u_itc += $amm;
+             $credits = $credits - ($p_itc*$amm);
 			break;
             case 'Airtel': 
-             $u_airtel -= $amm;
-             $credits = $credits + ($p_airtel*$amm);
+             $u_airtel += $amm;
+             $credits = $credits - ($p_airtel*$amm);
 			break;
             case 'Dabur': 
-             $u_dabur -= $amm;
-             $credits = $credits + ($p_dabur*$amm);
+             $u_dabur += $amm;
+             $credits = $credits - ($p_dabur*$amm);
 			break;
             case 'Maruti': 
-             $u_maruti -= $amm;
-             $credits = $credits + ($p_maruti*$amm);
+             $u_maruti += $amm;
+             $credits = $credits - ($p_maruti*$amm);
 			break;
             case 'ONGC': 
-             $u_ongc -= $amm;
-             $credits = $credits + ($p_ongc*$amm);
+             $u_ongc += $amm;
+             $credits = $credits - ($p_ongc*$amm);
 			break;
             case 'PNB': 
-             $u_pnb -= $amm;
-             $credits = $credits + ($p_pnb*$amm);
+             $u_pnb += $amm;
+             $credits = $credits - ($p_pnb*$amm);
 			break;	               				
 		}
         
@@ -68,4 +65,6 @@ switch($com)
 	//	$q_row=mysql_fetch_assoc($q_run);
         
 	
+?>
+
 ?>
