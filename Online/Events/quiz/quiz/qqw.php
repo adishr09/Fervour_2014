@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<?php  
+
+echo time();
+
+?>
+=======
 <?php
    session_start();
    if(isset($_POST['1']) && isset($_POST['2'])&& isset($_POST['3'])&& isset($_POST['4'])&& isset($_POST['5'])&& isset($_POST['6'])&& isset($_POST['7'])&& isset($_POST['8'])&& isset($_POST['9'])&& isset($_POST['10'])&& isset($_POST['11'])&& isset($_POST['12'])&& isset($_POST['13'])&& isset($_POST['14'])&& isset($_POST['15']))
@@ -192,5 +199,10 @@
    else
    header( 'Location: index.php' );
    }
+<<<<<<< HEAD
    }
  ?>
+=======
+ ?>
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
+>>>>>>> origin/master

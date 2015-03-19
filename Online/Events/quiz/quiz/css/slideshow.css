@@ -105,11 +105,19 @@ body,
 .slide {
 	position: absolute;
 	top: 0;
+<<<<<<< HEAD
+	left: 16%;
+	right: 16%;
+	padding: 1em;
+	white-space: initial;
+	text-align: center;
+=======
 	left: 30%;
 	right: 16%;
 	padding: 1em;
 	white-space: initial;
 	text-align: left;
+>>>>>>> e4211911877a04df63a3272cbc6dd14ea1a94b65
 }
 
 .slide h1,
