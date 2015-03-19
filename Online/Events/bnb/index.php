@@ -11,21 +11,16 @@
 		$u=$_POST['user'];
 		$p=$_POST['pass'];
 	
-		$q="SELECT * FROM `vsq_15` WHERE pass='".$p."'";
-		
+		$q="SELECT * FROM `bnb` WHERE pass='".$p."'";
 		$q_run=mysql_query($q) or die("<br/>error_run");
 		$q_row=mysql_fetch_assoc($q_run);
-		echo '<br>'.$q_row['uname']; 
-		$uname=$q_row['uname'];
-		$end=$q_row['done_2'];
-		if($uname==$u && $end==0){$_SESSION['uname']=$u; 
+			if($uname==$u && $end==0){
+			 $_SESSION['uname']=$u; 
 
-		$_SESSION['time']=time(); 
-
-		header( 'Location: quiz/index.php' ) ;
+		  header( 'Location: bnb.php' ) ;
 		}
-		else if ($end != 0 ){header( 'Location: exit.php' ) ;}
-		}
+        }
+		
 ?>
 <body style="margin:0;">
 <div class="main_div">

@@ -10,7 +10,8 @@ $p_maruti = 7.5;
 $p_ongc = 3;
 $p_pnb = 2.5;
 $credits = 1000; 
-
+	$q="SELECT * FROM `bnb` WHERE pass='".$p."'";
+	
 $_SESSION['u_dlf'] = 0;
 $_SESSION['u_itc'] = 0;
 $_SESSION['u_airtel'] = 0;
