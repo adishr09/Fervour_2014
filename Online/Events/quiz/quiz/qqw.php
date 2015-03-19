@@ -183,7 +183,7 @@
   
 	   if($lev >=0){
 		   if(time() - $session['time']) {
-			   $lev = $lev - 20;
+			   $lev = $lev - 10;
 		   }
 	   $lol= "UPDATE `vsq_15` SET `total` = "."'". $lev."'" ." , `done_2` = 1 WHERE  `uname` ="."'". $ses."'";
 		$res = mysql_query($lol) or die (mysql_error());
@@ -191,5 +191,6 @@
    header( 'Location: exit.php' );}
    else
    header( 'Location: index.php' );
+   }
    }
  ?>

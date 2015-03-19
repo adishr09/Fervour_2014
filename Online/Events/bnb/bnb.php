@@ -27,17 +27,6 @@
 				<p>Stock</p>
 				<p>Tally</p>
 				<p>Here</p>
-				<p>User</p>
-				<p>Stock</p>
-				<p>Tally</p>
-				<p>Here</p>
-				<p>User</p>
-				<p>Stock</p>
-				<p>Tally</p>
-				<p>Here</p><p>User</p>
-				<p>Stock</p>
-				<p>Tally</p>
-				<p>Here</p>
 			</div>
 		</div>
 		<div id="border">

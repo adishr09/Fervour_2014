@@ -12,14 +12,13 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="../css/body.css" />
     <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
-    
     <script src="js/snap.svg-min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 	<style>img{height:300px;}p{top:-170px;position:relative;}input[type="text"]{position:relative;top:-170px;}</style>	
-	<!--<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>-->
+	<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
 </head>
 <body>
 	<div class="container">
@@ -29,15 +28,16 @@
 				<button type="button" id="myBtn" class="btnDisable" disabled onclick="parent.location='2nd_homepage/home_page.html'">Tick Tock</button>
 		</div>
 		<script>
-			var sec = 1800;
+			var sec = 1850;
 			var myTimer = document.getElementById('myTimer');
 			var myBtn = document.getElementById('myBtn');
 			window.onload = countDown;
+			
 			function countDown() {
 				if (sec < 10) {
-					myTimer.innerHTML = "0" + sec;
+					myTimer.innerHTML = "0" + sec + " sec";
 				} else {
-					myTimer.innerHTML = sec;
+					myTimer.innerHTML = parseInt(sec/60) + " minutes";
 				}
 				if (sec <= 0) {
 					$("#myBtn").removeAttr("disabled");
@@ -53,7 +53,7 @@
 		<form action="qqw.php" method="post">
 			<ul>
                 <li>
-                    <div class="slide">
+                    <div class="slide" style="top:-102px;">
                         <div class="codrops-links">
                             <a class="codrops-icon codrops-icon-prev" href="http://bvpieee.com/iVSQ/1.php"><span>Home Page</span></a>
                             <a href="http://bvpieee.com/"><span>BVPIEEE</span></a>
@@ -65,7 +65,7 @@
  onmousedown='return false;'>
                           </p>     
                           
-                            <span style="font-size:30px;">  Which of the following process scheduling algorithm may lead to starvation?</span>
+                            <span style="font-size:20px;">  Which of the following process scheduling algorithm may lead to starvation?</span>
                       <br />    <br />    <br />    <br />    <br />    
                        
                         <select name="1" style="top:-70px;">
@@ -109,7 +109,7 @@
  onselectstart='return false;' 
  onmousedown='return false;'>
                             
-	 <span style="font-size:30px;">A process executes the following code <br />
+	 <span style="font-size:20px;">A process executes the following code <br />
      <code>for (i = 0; i< n; i++) fork(); <br />The total number of child processes created is ?</code>
 </span>
                           </p>  
@@ -124,7 +124,6 @@
                 </li>
                 <li>
                     <div class="slide">
-                        <br><br><br><br><br><br><br><br><br>
                        <span style="color:white; font-size: 20px;">
                             Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications.<br /> Match entries in Group 1 to entries in Group 2.  <br />
                             <br /><br /><center><table>
@@ -165,7 +164,7 @@
  onselectstart='return false;' 
  onmousedown='return false;'>
                             <br />
-                            <span style="font-size:30px;">Given the basic ER and relational models, which of the following is INCORRECT? </span><br /><br />
+                            <span style="font-size:20px;">Given the basic ER and relational models, which of the following is INCORRECT? </span><br /><br />
                          </p>    <select name="5">
     					<option value="NILL"></option>
 						<option value="A">An attribute of an entity can have more than one value</option>
@@ -200,7 +199,7 @@
  unselectable='on'
  onselectstart='return false;' 
  onmousedown='return false;'>
-                       <span style="font-size:30px;">Which of the following scenarios may lead to an irrecoverable error in a database system ?  </span><br /><br />
+                       <span style="font-size:20px;">Which of the following scenarios may lead to an irrecoverable error in a database system ?  </span><br /><br />
                          </p>    <select name="7">
     					<option value="NILL"></option>
 						<option value="A">A transaction writes a data item after it is read by an uncommitted transaction</option>
@@ -218,7 +217,7 @@
  onselectstart='return false;' 
  onmousedown='return false;'>
  
-						  <span style="font-size:30px;">A clustering index is defined on the fields which are of type </span><br /><br />
+						  <span style="font-size:20px;">A clustering index is defined on the fields which are of type </span><br /><br />
                          </p>    <select name="8">
     					<option value="NILL"></option>
 						<option value="A">non-key and ordering</option>
@@ -236,7 +235,7 @@
  unselectable='on'
  onselectstart='return false;' 
  onmousedown='return false;'>
-                              <span style="font-size:30px;">Find output:<br><br></span><span style="font-size:15px; align: left !important;">
+                              <span style="font-size:20px;">Find output:<br><br></span><span style="font-size:15px; align: left !important;">
 								int main()<br>
 								{<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	unsigned int i = 65535; /* Assume 2 byte integer*/<br>
@@ -263,7 +262,7 @@
  unselectable='on'
  onselectstart='return false;' 
  onmousedown='return false;'>
-						 <span style="font-size:30px;">Find output:<br><br>
+						 <span style="font-size:20px;">Find output:<br><br>
 								int main()<br>
 								{<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	printf("%x\n", -2<<2);<br>
@@ -289,7 +288,7 @@
  onmousedown='return false;'>
                              <span style="font-size:20px; font-style:none !important;">Find output:<br><br>
 								int main()	<br>
-								{	<br>
+								{	
 								&nbsp;&nbsp;&nbsp;&nbsp;	int fun();	<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;		int i;	<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	i = fun();	<br>
@@ -297,13 +296,11 @@
 								&nbsp;&nbsp;&nbsp;&nbsp;	return 0;	<br>
 								}	<br>
 								int fun()	<br>
-								{	<br>
+								{	
 								&nbsp;&nbsp;&nbsp;&nbsp;	_AX = 1990;	<br>
-								}	<br>
-								<br>
+								}	
 
-						</span><br /><br /><br /><br />
-						
+						</span>
                          </p><br><p></p>    <select name="11">
     					
 						<option value="NILL"></option>
@@ -321,7 +318,7 @@
  unselectable='on'
  onselectstart='return false;' 
  onmousedown='return false;'>
-                          <span style="font-size:30px;">What will be the output of the C#.NET code snippet given below?<br><br>
+                          <span style="font-size:20px;">What will be the output of the C#.NET code snippet given below?<br><br>
 								int i = 2, j = i;<br>
 								if (Convert.ToBoolean((i | j & 5) & (j - 25 * 1)))<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	Console.WriteLine(1); <br>
@@ -349,7 +346,7 @@
  onmousedown='return false;'>
                               <span style="color:white; font-size: 20px;">
                             Which of the following statements are correct?
-                            <center><table style="margin-top:-22%">
+                            <center><table style="margin-top:-22%; font-style:none !important">
                             <tr>
                             <td>1.	An argument passed to a ref parameter need not be initialized first</td> 
                          
@@ -375,7 +372,7 @@
                       <br /><br /> 
 					  </span>
                           <select name="13" style="margin-top:20%;">
-						  <option value="NILL"></option>
+						  <option value="NULL"></option>
     					<option value="A">A.
 1, 2
 </option>
@@ -398,7 +395,7 @@
  unselectable='on'
  onselectstart='return false;' 
  onmousedown='return false;'>
-                            <span style="font-size:30px;">What will be the output of the program?<br><br>
+                            <span style="font-size:20px;">What will be the output of the program?<br><br>
 								#include<stdio.h><br>
 								int main()<br>
 								{<br>
@@ -412,6 +409,7 @@
 
 														</span><br /><br />
 														 </p>    <select name="14">
+														 <option value="NULL"></option>
 														<option value="A">A.
 								0, 1, 3
 								</option>
@@ -429,15 +427,15 @@
                 </li>
 				<li>
                     <div class="slide">
-                        <br><br><br><br><br><br><br><br><br>
-                        <span style="font-size:30px;">What will be the output of the program ?<br><br>
+                        
+                        <span style="font-size:20px;">What will be the output of the program ?<br><br>
 								#include<stdio.h><br>
 
 								void fun(void *p);<br>
 								int i;<br>
 
 								int main()<br>
-								{<br>
+								{
 								&nbsp;&nbsp;&nbsp;&nbsp;	void *vptr;<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	vptr = &i;<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	fun(vptr);<br>
@@ -448,10 +446,9 @@
 									&nbsp;&nbsp;&nbsp;&nbsp;int **q;<br>
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; q = (int**)&p;<br>
 								&nbsp;&nbsp;&nbsp;&nbsp;	printf("%d\n", **q);<br>
-								}<br>
+								}
 
-
-						</span><br /><br />
+						</span><br /><br /><br><br><br><br><br><br><br><br>
                          </p>    <select name="15">
 						 <option value="NILL"></option>
     					<option value="A">0</option>

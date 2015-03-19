@@ -32,18 +32,17 @@ header( 'Location: 1.php' ) ;
 ?>
 <div class="main_div">
 <div class="content">
-	<center><h3> VSQ 2015</h3></center>
-	<p> VSQ is back! 
-It is the 8th Edition. :D</p>
-
-<p>The IEEE Student Branch of BVCOE will be conducting the 8th edition of The Dr. Vikram Sarabhai Rotating Shield inter-college quiz in January 2015. </p>
-
-<p>It is a GENERAL QUIZ.</p>
-
-<p>The Quiz is open to all College and School students.
-It is an engrossing and stimulating event that lives up to its billing as one of Delhi's top inter-college quizzes.</p>
-
-<p>Potential topics : Current affairs, history, sports, entertainment (Game of Thrones too, yes), pop culture (no One Direction, no worries!). Basically life, the universe and everything that makes it. </p></p>
+	<center><h3> Tech Quiz</h3></center>
+<p>Do you think you are a TECH WIZ??<br>
+Are you a superstar among your friends when it comes to technical stuff ?? If yes then this is the place to show off your skills.<br>
+FERVOUR'15 brings to you a TECH Quiz. Here we fire a series of technical questions to you.<br>
+You have to answer as many as you can. <br>
+Whosoever answers the maximum no. Of questions wins.<br>
+So gear up and get ready to face the real challenge.<br>
+Loads of EXCITING PRIZES and goodies to be won.<br><br>
+A quiz About all things in the technical universe.</p>
+<br><br>
+IMPORTANT: There is a Time Limit of 30 minutes. If you exceed, a penalty of 10 points is given.
 </div>
 <div style="border:groove;border-color:grey;height:75%;position:inherit;float:left;margin-top:5%;"></div>
 <div id="login">
