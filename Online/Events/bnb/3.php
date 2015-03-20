@@ -69,7 +69,7 @@ IMPORTANT: There is a Time Limit of 30 minutes. If you exceed, a penalty of 10 p
 	</div>
 	<div class="tail">
 		<input type="submit" value="Register" class="but_ton"/>
-		<center><p style="font-size:20px;"><a href="1.php">Login Here!</a></p></center>
+		<center><p style="font-size:20px;"><a href="index.php">Login Here!</a></p></center>
 	</div>
 	</form>
 </div>

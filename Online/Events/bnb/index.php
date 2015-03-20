@@ -14,7 +14,7 @@
 		$q="SELECT * FROM `bnb` WHERE pass='".$p."'";
 		$q_run=mysql_query($q) or die("<br/>error_run");
 		$q_row=mysql_fetch_assoc($q_run);
-		$uname=$q_row['uname'];
+		$uname=$q_row['email'];
 	
         	if($uname==$u){
 			 $_SESSION['uname']=$u; 
@@ -44,7 +44,7 @@ IMPORTANT: There is a Time Limit of 30 minutes. If you exceed, a penalty of 10 p
 	<div class="head">
 	<p>LOGIN</p>
 	</div>
-	<form action="1.php" method="POST" style="margin:0;">
+	<form action="index.php" method="POST" style="margin:0;">
 	<div class="box">
 	email:<br/> <input type="text" name="user" class="text_box" />
 		<br/><br/>
