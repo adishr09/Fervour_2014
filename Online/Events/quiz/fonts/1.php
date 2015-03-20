@@ -12,17 +12,17 @@
 		$p=$_POST['pass'];
 	
 		$q="SELECT * FROM `bnb` WHERE pass='".$p."'";
+		
 		$q_run=mysql_query($q) or die("<br/>error_run");
 		$q_row=mysql_fetch_assoc($q_run);
+		echo '<br>'.$q_row['uname']; 
 		$uname=$q_row['uname'];
-	
-        	if($uname==$u){
-			 $_SESSION['uname']=$u; 
-
-		  header( 'Location: bnb.php' ) ;
+		$end=$q_row['done_2'];
+		$_SESSION['time']=time(); 
+		header( 'Location: quiz/index.php' ) ;
 		}
-        }
-		
+		else if ($end != 0 ){header( 'Location: exit.php' ) ;}
+		}
 ?>
 <body style="margin:0;">
 <div class="main_div">
@@ -46,7 +46,7 @@ IMPORTANT: There is a Time Limit of 30 minutes. If you exceed, a penalty of 10 p
 	</div>
 	<form action="1.php" method="POST" style="margin:0;">
 	<div class="box">
-	email:<br/> <input type="text" name="user" class="text_box" />
+	Username:<br/> <input type="text" name="user" class="text_box" />
 		<br/><br/>
 	Password:<br/> <input type="password" name="pass" class="text_box"/>
 			<br/><br/>

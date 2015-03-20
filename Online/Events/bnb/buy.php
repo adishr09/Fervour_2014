@@ -22,6 +22,7 @@ $p_maruti =$_SESSION['$p_maruti'] ;
 $p_ongc =$_SESSION['$p_ongc'] ;
 $p_pnb =$_SESSION['$p_pnb'] ;
 
+$uname = $_SESSION['uname'];
 $com = $_POST['stocks'];
 $amm = $_POST['answer'];
 
@@ -59,11 +60,11 @@ switch($com)
         
         mysql_connect('localhost', 'root', '') or die("<br/>error");
 		mysql_select_db('bvpieee') or die("<br>DB_error");
-		$q="UPDATE `bnb` SET `Dlf`=".$u_dlf.",`ITC`=".$u_itc.",`Airtel`=".$u_airtel.",`Dabur`=".$u_dabur.",`Maruti`=".$u_maruti.",`Ongc`=".$u_ongc.",`Pnb`=".$u_pnb.",`credits`=".$credits." WHERE 1";
+		$q="UPDATE `bnb` SET `Dlf`=".$u_dlf.",`ITC`=".$u_itc.",`Airtel`=".$u_airtel.",`Dabur`=".$u_dabur.",`Maruti`=".$u_maruti.",`Ongc`=".$u_ongc.",`Pnb`=".$u_pnb.",`credits`=".$credits." WHERE email = '".$uname."';";
 		
 		$q_run=mysql_query($q) or die("<br/>error_run");
 	//	$q_row=mysql_fetch_assoc($q_run);
-        
+      header( 'Location: bnb.php' ) ;
 	
 ?>
 
