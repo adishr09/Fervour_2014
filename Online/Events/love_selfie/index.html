@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" style="background:rgb(58,58,58);">
+<head>
+	<meta charset="utf-8">
+	<title>Love YourSelf-ie | @FERVOUR 2015</title>
+	<link href="css/movingboxes.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<link href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
+	<![endif]-->
+	<!-- Required script -->
+	<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+	<script src="js/jquery.movingboxes.js"></script>
+	<!-- Demo only -->
+	<link href="demo/demo.css" rel="stylesheet">
+	<style>
+		#slider { width: 500px; }
+		#slider li { width: 250px; }
+	</style>
+	<script>
+	$(function(){
+
+		$('#slider').movingBoxes({
+			/* width and panelWidth options deprecated, but still work to keep the plugin backwards compatible
+			width: 500,
+			panelWidth: 0.5,
+			*/
+			startPanel   : 1,      // start with this panel
+			wrap         : false,  // if true, the panel will infinitely loop
+			buildNav     : true,   // if true, navigation links will be added
+			navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+		});
+
+	});
+	</script>
+</head>
+<body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="wrapper">
+		<h1 class="demo-title">Love Yourself-ie</h1>
+		<!-- MovingBoxes Slider -->
+		<ul id="slider">
+			<li>
+				<img src="demo/1.jpg" alt="picture">
+				<h2>Aman Jain</h2>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=1" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+			<li>
+				<img src="demo/2.jpg" alt="picture">
+				<h2>Aman Jain</h2>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=2" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+			<li>
+				<img src="demo/3.jpg" alt="picture">
+				<h2>Ritika Jaiswal</h2>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=3" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+			<li>
+				<img src="demo/4.jpg" alt="picture">
+				<h2>Yash Batra</h2>
+				<p>CSE 1st year<br>
+				"All u need is love and friendship around u!!"</p>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=4" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+			<li>
+				<img src="demo/5.jpg" alt="picture">
+				<h2>Apporv Gakhar</h2>
+				<p>CSE 2nd Year<br>
+				"Good times and crazy friends make the best memories"</p>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=5" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+			<li>
+				<img src="demo/6.jpg" alt="picture">
+				<h2>Bhumika singh</h2>
+				<p>CSE 3rd year<br>
+				"Keep calm..They have fun too..."</p>
+				<div class="fb-like" data-href="http://bvpieee.org/fervour/15/Online/Events/love_selfie/index.html#&slider1=6" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			</li>
+		</ul><!-- end Slider #1		-->
+	</div><!-- end wrapper -->
+</body>
+</html>

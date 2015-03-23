@@ -5,7 +5,7 @@
 * { 
   margin: 0; 
   padding: 0; 
-  color:#fffc00
+  color:#47a3da;
 }
 
 body { 
@@ -14,11 +14,11 @@ body {
 
 .demo-title {
   text-align: center;
-  color: #fffc00;
+  color: #47a3da;
   text-transform: uppercase;
   padding: 30px 0 0;
   font-size: 60px;
-  margin-bottom:8%;
+  margin-bottom:2%;
 }
 
 /* Navigation bar */
