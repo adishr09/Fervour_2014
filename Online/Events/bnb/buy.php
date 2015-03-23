@@ -58,9 +58,9 @@ switch($com)
 			break;	               				
 		}
         
-        mysql_connect('localhost', 'root', '') or die("<br/>error");
-		mysql_select_db('bvpieee') or die("<br>DB_error");
-		$q="UPDATE `bnb` SET `Dlf`=".$u_dlf.",`ITC`=".$u_itc.",`Airtel`=".$u_airtel.",`Dabur`=".$u_dabur.",`Maruti`=".$u_maruti.",`Ongc`=".$u_ongc.",`Pnb`=".$u_pnb.",`credits`=".$credits." WHERE email = '".$uname."';";
+      mysql_connect('mysql1.freehosting.com', 'bvpieeec_lol', 'hdb32wb98') or die("<br/>error");
+		mysql_select_db('bvpieeec_delhibvce') or die("<br>DB_error");
+			$q="UPDATE `bnb` SET `dlf`=".$u_dlf.",`itc`=".$u_itc.",`airtel`=".$u_airtel.",`dabur`=".$u_dabur.",`maruti`=".$u_maruti.",`ongc`=".$u_ongc.",`pnb`=".$u_pnb.",`credits`=".$credits." WHERE email = '".$uname."';";
 		
 		$q_run=mysql_query($q) or die("<br/>error_run");
 	//	$q_row=mysql_fetch_assoc($q_run);

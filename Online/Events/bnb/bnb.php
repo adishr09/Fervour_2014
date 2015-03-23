@@ -21,9 +21,9 @@ $_SESSION['$p_maruti'] = $p_maruti;
 $_SESSION['$p_ongc'] = $p_ongc;
 $_SESSION['$p_pnb'] = $p_pnb;
 
-mysql_connect('localhost', 'root', '') or die("<br/>error");
-mysql_select_db('bvpieee') or die("<br>DB_error");
-$q="SELECT * FROM `bnb` WHERE email='".$uname."'";
+mysql_connect('mysql1.freehosting.com', 'bvpieeec_lol', 'hdb32wb98') or die("<br/>error");
+		mysql_select_db('bvpieeec_delhibvce') or die("<br>DB_error");
+		$q="SELECT * FROM `bnb` WHERE email='".$uname."'";
 $q_run=mysql_query($q) or die("<br/>error_run");
 $q_row=mysql_fetch_assoc($q_run);
 $a=$q_row['creds'];
@@ -96,8 +96,7 @@ $_SESSION['credits'] = $a;
 				</select>
 				<br><br>
 				Quantity<input type="number" name="answer" min="1"><br><br>
-				Current Credit<input type="text" name="cc" value="" disabled><br><br>
-				Credit after Sell<input type="text" name="cas" value="" disabled><br><br>
+				Current Credit<?php session_start();echo $_SESSION['credits']; ?> <br><br><br><br>
 				<input type="submit" value="Purchase Stock">
                 </form>
 			</div>
@@ -116,8 +115,8 @@ $_SESSION['credits'] = $a;
 				</select>
 				<br><br>
 				Quantity<input type="number" name="answer" min="1"><br><br>
-				Current Credit<input type="text" name="cc" value="" disabled><br><br>
-				Credit after Sell<input type="text" name="cas" value="" disabled><br><br>
+				Current Credit:<?php session_start(); $a= $_SESSION['credits']; echo $a;?> <br><br>
+				
 				<input type="submit" value="Sell Stock">
 			</form>
 			</div>
