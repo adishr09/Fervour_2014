@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/CaviarDreams-webfont.eot');
+    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+background:rgb(58,58,58);
+height:100%;
+color:#fff;
+width:auto;
+font-family: 'caviar_dreamsregular';
+}
+
+#wrapper{
+text-align:justify;
+width:100%;
+position:relative;
+font-weight: 800;
+	font-size: 1.2em;
+}
+
+#left{
+float:left;
+text-align:left;
+height:inherit;
+width:50%;
+}
+
+#border{
+float:left;
+height:2px;
+width:80%;
+border-bottom:1px rgb(20,20,20);
+border-style:outset;
+margin:2% 10% 5%;
+}
+
+#right{
+float:left;
+height:inherit;
+font-size:2em;
+width:45%;
+}
+
+#right > p {
+float:left;
+margin: 2%;
+}
+
+#left_f{
+clear:both;
+float:left;
+height:auto;
+width:100%;
+margin:2% 0 0 0;
+padding:0 3% 0 3%;
+background:#535353;
+position:inherit;
+}
+
+/*Button Style*/
+.button {
+    float:left;
+	position:inherit;
+    height:auto;
+    font:76%/150% "Lucida Grande", Geneva, 
+    Verdana, Arial, Helvetica, sans-serif;
+    width:10em;
+    text-align:center;
+    white-space:nowrap;
+}
+/*Button Arrow Styles*/
+.arrows {
+    font-size:90%;
+    margin:0.2em;
+}
+/*Button link styles*/
+.button a:link, .button a:visited {
+    font-size:1em;
+    font-weight:bolder;
+    text-decoration: none;
+    background-color:rgb(40,40,40);
+    color:#47a3da;
+    border-top:0.1em solid rgb(158,158,158);
+    border-left:0.1em solid rgb(158,158,158);
+    border-bottom:0.1em solid rgb(98,98,98);
+    border-right:0.1em solid rgb(98,98,98);
+    padding:0.2em;
+    margin: 0.2em;
+    display:block;
+}
+.button a:hover {
+	color: #47a3da;
+    background-color:rgb(58,58,58);
+    border-bottom:0.1em solid rgb(158,158,158);
+    border-right:0.1em solid rgb(158,158,158);
+    border-top:0.1em solid rgb(98,98,98);
+    border-left:0.1em solid rgb(98,98,98);
+    margin: 0.2em;
+    padding:0.2em;
+}
